@@ -52,9 +52,9 @@
             --weather-font-color: #63A4E4;
             --weather-top: 54%;
             --weather-bottom: auto;
-            --weather-left: auto;
-            --weather-right: 22%;
-            --weather-transform: translateX(-50%);
+            --weather-left: 63%;
+            --weather-right: auto;
+            --weather-transform: auto;
 
             /* Font sizes */
             --weather-icon-size: 3rem;
@@ -133,7 +133,6 @@
             top: var(--weather-top);
             bottom: var(--weather-bottom);
             left: var(--weather-left);
-            right: var(--weather-right);
             transform: var(--weather-transform);
 
             display: flex;
@@ -170,12 +169,12 @@
        RESPONSIVE STYLES PER SCREEN SIZE
        Adjust countdown position for each video size
        ============================================ */
-        @media screen and (min-width: 768) {
+        @media screen and (min-width: 768px) {
 
         }
         @media screen and (min-width: 800px) {
             #weather-container {
-                right: 21%;
+                left: 61.5%;
             }
         }
     </style>
